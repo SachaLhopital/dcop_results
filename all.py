@@ -28,7 +28,7 @@ multi_legend_6, = plt.plot([1,2,3,4,5,6], [50.26, 46.72, 47.69, 50.33, 44.04, 47
 multi_legend_2, = plt.plot([1,2], [6.75, 8.81], '-.b', label='Multivariable (2 agents)')
 
 plt.legend(handles=[room_legend, zone_legend_4, zone_legend_6, multi_legend_2, multi_legend_6])
-plt.title('Execution time comparison for 6 Rooms', loc='center')
+#plt.title('Execution time comparison for 6 Rooms', loc='center')
 plt.xlabel('Agent number')
 plt.ylabel('Execution time (s)')
 
@@ -72,7 +72,7 @@ plt.plot([], [], '', label='a4 = Room Approache')
 plt.plot([], [], '', label="a5 = Multivariable Approache (6 Areas)")
 plt.legend()
 
-plt.title('Average execution time comparison for 6 Rooms', loc='center')
+#plt.title('Average execution time comparison for 6 Rooms', loc='center')
 plt.ylabel('Average execution time (s)')
 plt.savefig('output/all_histogram.png')
 plt.show()

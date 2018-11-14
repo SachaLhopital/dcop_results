@@ -20,7 +20,7 @@ green_lg_time, = plt.plot(
 )
 plt.xlabel('Agent number')
 plt.ylabel('Exec. time (s)')
-plt.title('B : Execution time comparison \n between python code and QEMU simulations \n for 10 agents')
+#plt.title('B : Execution time comparison \n between the deployed system and QEMU simulations \n for 10 agents')
 plt.legend(
     handles=[yellow_lg_time, green_lg_time]
 )
@@ -44,7 +44,7 @@ plt.plot(
 
 plt.xlabel('Agent number')
 plt.ylabel('Msg Size (bytes)')
-plt.title('D : Average Message size \n received for 10 agents', loc='center')
+#plt.title('D : Average Message size \n received for 10 agents', loc='center')
 plt.legend(
     handles=[yellow_lg_time, green_lg_time]
 )
@@ -75,7 +75,7 @@ brown_lg_time, = plt.plot(
 
 plt.xlabel('Agent number')
 plt.ylabel('Exec. time (s)')
-plt.title('A : Execution time comparison \n between python code and QEMU simulations \n for 6 agents')
+#plt.title('A : Execution time comparison \n between the deployed system and QEMU simulations \n for 6 agents')
 plt.legend(
     handles=[red_lg_time, brown_lg_time]
 )
@@ -97,7 +97,7 @@ plt.plot(
 )
 plt.xlabel('Agent number')
 plt.ylabel('Msg Size (bytes)')
-plt.title('C : Average Message size \n received for 6 agents', loc='center')
+#plt.title('C : Average Message size \n received for 6 agents', loc='center')
 plt.legend(
     handles=[red_lg_time, brown_lg_time]
 )
